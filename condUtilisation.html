@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/homeStyle.css'%}">
+
+    <title>Conditions d'utilisation</title>
+</head>
+<body class="condition_body">
+ 
+    <header>
+        <img src="{% static 'Pictures/logo_network21.PNG' %}" class="logo_politik" alt="image non-retrouve"
+            height="250" width="250" >
+            <p>
+                Conditions d'utilisation
+            </p>
+    </header>
+    <section>
+        <br><br>
+        <div class="intro_cond">
+            <p>
+                Conditions d'utilisation
+            </p>
+            <p>
+                En adhérant à ce centre, vous acceptez d'être lié par les présentes conditions d'utilisation, par toutes les lois et réglementations applicables, et vous acceptez d'être responsable du respect de toutes les lois locales applicables. 
+                Si vous n'êtes pas d'accord avec l'une de ces conditions, il vous est interdit d'utiliser ce site ou d'y accéder.   </p>
+        </div>
+        <div class="first_para_cond">
+            <p>Licence d'utilisation</p>
+            <p>
+                L'autorisation est accordée de télécharger temporairement une copie de tout document figurant sur le site web de l'école pour une consultation transitoire personnelle et non commerciale uniquement.
+                Il s'agit d'une licence et non d'un transfert de titre, et dans le cadre de cette licence, vous n'êtes pas autorisé à modifier ou copier le matériel, 
+                utiliser le matériel à des fins commerciales ou pour un affichage public (commercial ou autre), tenter de décompiler ou d'inverser l'ingénierie de tout logiciel contenu sur le site web de l'école,
+                 supprimer tout droit d'auteur ou autre avis de propriété du matériel, ou transférer le matériel à une autre personne ou le mettre en miroir sur un autre serveur.
+                 Cette licence sera automatiquement résiliée si vous ne respectez pas l'une de ces restrictions et pourra être résiliée par l'entreprise à tout moment. 
+                 Lorsque vous cessez de consulter ces documents ou lorsque la présente licence prend fin, vous devez détruire tous les documents téléchargés en votre possession, qu'ils soient sous forme électronique ou imprimée.
+                </p>
+        </div>
+        <div class="second_para_cond">
+            <p>
+            Limitation
+        </p>
+          <p>
+            Le centre ne peut en aucun cas être tenue responsable des dommages (y compris, mais sans s'y limiter, les dommages liés à la perte de données ou de bénéfices, 
+            ou à l'interruption d'activité) résultant de l'utilisation ou de l'impossibilité d'utiliser les documents figurant sur le site Web du centre,
+             même si le centre ou un représentant autorisé du centre a été informé oralement ou par écrit de l'éventualité de tels dommages. 
+             Dans la mesure où certaines juridictions n'autorisent pas les limitations de garanties implicites ou les limitations de responsabilité pour les dommages indirects ou accessoires,
+              ces limitations peuvent ne pas s'appliquer à vous.
+          </p>
+        </div>
+        <div class="third_para_cond">
+            <p>Revision</p>
+            <p>
+                Les documents figurant sur le site web du centre peuvent contenir des erreurs techniques, typographiques ou photographiques. Le centre ne garantit pas que les éléments figurant sur son site web sont exacts, 
+                complets ou à jour. Le centre peut apporter des modifications au matériel contenu sur son site web à tout moment et sans préavis. le centre ne s'engage toutefois pas à mettre à jour le matériel.
+                <br><br>
+                <b>NB :</b>Le centre n'a pas examiné tous les sites liés à son site web et n'est pas responsable du contenu de ces sites. L'inclusion d'un lien n'implique pas l'approbation du site par le centre. L'utilisation de ces sites se fait aux risques et périls de l'utilisateur.
+            </p>
+        </div>
+        <div class="fourth_para_cond">
+            <p>Modification de conditions d'utilisation</p>
+            <p>
+                Le centre peut réviser les présentes conditions d'utilisation de son site web à tout moment et sans préavis. En utilisant ce site, vous acceptez d'être lié par la version la plus récente de ces conditions d'utilisation.
+            </p>
+        </div>
+        <div class="btn_cond">
+            <a href="{% url 'tonApp:tonApp-homePage' %}" class="confirmation_cond">OK</a>
+        </div>
+    </section>
+   
+ 
+</body>
+<footer>
+   
+
+</footer>
+</html>

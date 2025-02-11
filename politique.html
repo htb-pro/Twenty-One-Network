@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/homeStyle.css'%}">
+
+    <title>Politique de confidentialité</title>
+</head>
+<body class="politik_Body">
+ 
+    <header>
+        <img src="{% static 'Pictures/logo_network21.PNG' %}" class="logo_politik" alt="image non-retrouve"
+            height="250" width="250" >
+            <p>
+                Politique de confidentialité
+            </p>
+    </header>
+    <section>
+        <div class="intro">
+            <p>
+                Politique de confidentialité
+            </p>
+            <p>
+                La politique de confidentialité de 21 network régit la façon dont le centre recupere, utilise, conserve et divulgue les informations recueillies auprès des utilisateurs (apprenant) de ce centre. Cette politique de confidentialité s'applique à tous les services proposés par le centre.
+            </p>
+        </div>
+        <div class="first_para">
+            <p>Informations personnelles</p>
+            <p>
+                Nous pouvons collecter des informations d'identification personnelle auprès des apprenants de diverses manières, y compris mais sans s'y limiter, lorsque les apprenants s'inscrivent au centre ou à un service du centre, s'abonnent à une newsletter et en relation avec d'autres services. <br>
+                Les  apprenants peuvent visiter le centre ou la plateforme de manière anonyme. Nous ne collecterons les informations d'identification personnelle des apprenants que s'ils nous soumettent volontairement ces informations. 
+                <br>Les apprenants peuvent refuser de fournir des informations d'identification personnelle, mais cela peut les empêcher de s'engager dans certaines activités liées au centre.
+            </p>
+        </div>
+        <div class="second_para">
+            <p>
+            L'usage des informations</p>
+                <span>Le centre peut faire la collection et utiliser les informations d'identification personnelle des apprenants aux fins suivantes :</span>
+            <ul>
+            <li>Pour amélioration de service client
+            Les informations fournis nous aident à répondre plus efficacement à vos demandes de service client.</li>
+            <li>Pour la personnalisation de l'expérience utilisateur
+            Nous pouvons utiliser les informations dans leur ensemble pour comprendre comment nos apprenants en tant que groupe utilisent les services et les ressources fournis dans notre centre.</li>
+            </ul>
+            <b>NB:</b>Nous ne vendons, ne partageons ni ne louons les informations d'identification personnelle des apprenants à des tiers.
+            <span><br><br>
+                Le centre a le pouvoir discrétionnaire de <b>mettre à jour cette politique de confidentialité à tout moment.</b> Nous encourageons les apprenants à consulter fréquemment cette page pour tout changement. </span>
+            </p>
+        </div>
+        <div class="third_para">
+            <p>Acceptation de  termes</p>
+            <p>
+                En vous inscrivant à twenty-one network, vous signifiez votre acceptation de cette politique de confidentialité. 
+                Si vous n'êtes pas d’accord avec cette politique de confidentialité, veuillez ne pas vous inscrire. 
+                Votre inscription continue au centre après la publication des modifications apportées à cette politique de confidentialité sera considérée comme votre acceptation de ces modifications.
+            </p>
+        </div>
+        <div class="btn">
+            <a href="{% url 'tonApp:tonApp-homePage' %}" class="">OK</a>
+        </div>
+    </section>
+   
+ 
+</body>
+<footer>
+   
+
+</footer>
+</html>

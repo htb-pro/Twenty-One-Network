@@ -1,0 +1,754 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	 background-color:white;
+     padding-top: 3rem;
+}
+/*------------ informations about coaching*/
+.contentCoaching, .contentMentoring, .contentPointOfView,.contentImprovement,.contentEnglish
+{
+    height: auto;
+    width: 35vw;
+    background-color: rgb(47,94,94);
+    font-size: 1.2rem;
+    font-family: 'century',arial,'sens-serif';
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    top: -30px;
+    color: white;
+    margin: 0px 25vw;
+    padding-bottom: 1rem;
+}
+
+.contentCoachingText
+{
+    margin-left: 10px;
+    margin-top: 1rem;
+    color: white;
+}
+.List
+{
+    margin: 1rem 5rem;
+
+    list-style-type: square;
+    color: rgb(100,236,9);
+}
+.sectionCoaching,.sectionMentoring,.sectionEnglish,.sectionPOV,.sectionImprovement  
+{
+    height: 40vh;
+    width: 35vw;
+    position: relative;
+}
+.sectionCoaching p
+{
+    font-family: arial;
+    font-size: 1.6rem;
+    width: 25rem;
+    margin-left: 1.2rem;
+    position: absolute;
+    top: 12.0rem;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    background-color: rgb(197, 197, 197);
+    opacity: 0.6;
+    border-radius: 10px;;
+}
+.contentCoaching,.contentEnglish, a 
+{
+    text-decoration: none;
+    
+}
+.Button
+{
+    width: 15rem;
+    height: auto;
+    position: relative;
+    left: 27.5rem;
+}
+.Button a 
+{
+    background-color:black;
+    color: white;
+    text-align: center;padding: 10px; 
+    border-radius: 50px;
+    margin-bottom : 1rem;
+    font-size: 20px; 
+    font-family: century 'sens-serif';
+ 
+}
+.Button a:hover
+{
+    animation-name: croisement;
+    animation-delay: 0px;
+    animation-duration: 2s;
+    transition: all 3s;
+    background-color: ;
+}
+@keyframes croisement
+{
+    50%{
+.Button a::before
+{
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 2.8rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: red;
+    margin-left: -9.6px;
+    margin-top: -9.5px;
+    z-index: 1;
+}
+.Button a::after
+{
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 2.8rem; 
+    background-color: white;
+    translate: -80% -25%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+}
+    100%
+    {
+    .Button a::before
+{
+    content: "";
+    position: absolute;
+    width: 6rem;
+    height: 2.8rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: red;
+    margin-left: -9.6px;
+    margin-top: -9.5px;
+    z-index: 1;
+}
+.Button a::after
+{
+    content: "";
+    position: absolute;
+    width: 6rem;
+    height: 2.8rem; 
+    background-color: white;
+    translate: -80% -25%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+    }
+}
+/*---------------*/
+
+.sectionMentoring p
+{
+    font-family: arial 'sens-serif';
+    font-size: 20px;
+    width: 35rem;
+    margin-left: 1rem;
+    position: absolute;
+    top: 13.5rem;
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    color: rgb(39, 39, 39);
+    opacity: 0.6;
+    border-radius: 10px;
+}
+.contentMentoringText
+{
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.contentMentoring a
+{
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------------------pour la page du service de mentoring-----------------------------------------------------------------*/
+.contentDiscover
+{
+   
+    height: auto;
+    width: 73.3vw;
+    background-color: white;
+    font-size: 1.2rem;
+    font-family: arial,'sens-serif';
+    margin-left: 15vw;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    color: rgb(235, 235, 235);
+    padding-bottom: 1rem;
+}
+.sectionDiscovering
+{
+    height: 50vh;
+    width: 73.2vw;
+    position: relative;
+}
+.sectionDiscovering p
+{
+    font-family: arial 'sens-serif';
+    font-size: 1.6rem;
+    width: 25rem;
+    margin-left: 30rem;
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    background-color: rgb(197, 197, 197);
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+.contentDiscover a 
+{
+    text-decoration: none;
+}
+.contentDiscoverImg0
+{
+    height: 35rem;
+    width: 25rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.contentDiscover0
+{
+    width: 30rem;
+    height: 34.6rem;
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    left: 28rem;
+    top: -35rem;
+    font-family: arial,'sens-serif';
+    background-color:rgb(236, 240, 241);
+    color: black;
+    padding-left: 10px;
+    box-shadow: 0px 0px  10px black;
+    border-radius: 0 10px 10px 0;
+}
+.contentDiscoverImg0 p
+{
+    text-align: center;
+    display: inline-block;
+    font-family: arial,'sens-serif';
+    width: 10rem;
+    height: 7rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    opacity: 0.5;
+    color: black;
+}
+.contentDiscover1
+{
+    height: 32.5rem;
+    width: 26.3rem;
+    margin-left: 3rem;
+    font-family: arial,'sens-serif';
+    background-color:rgb(236, 240, 241);
+    color: black;
+    position: absolute;
+    top: 62.5rem;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px 0  0 10px ;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 1rem;
+}
+.contentDiscoverImg1
+{
+    width: 29rem;
+    height: 32.5rem;
+    height: 33.2rem;
+    color: black;
+    position: absolute;
+    top: 63.5rem;
+    left: 30.1rem;
+    
+}
+
+/*-----------------------------------------------------------------------------------pour la page du service de mentoring-----------------------------------------------------------------*/
+
+.contentTalent
+{
+    height: 250vh;
+    width: 150vw;
+    background-color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15vw;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    color: rgb(235, 235, 235);
+
+}
+.Header
+{
+    height: 50vh;
+    width: 73.2vw;
+    position: relative;
+}
+.Header p
+{
+    font-family: arial 'sens-serif';
+    font-size: 1.6rem;
+    width: 25rem;
+    margin-left: 20rem;
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    background-color: rgb(197, 197, 197);
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.contentTalent a 
+{
+    text-decoration: none;
+}
+.TalentImg0
+{
+    height: 30.5rem;
+    width: 25rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.contentTalent0
+{
+    width: 30rem;
+    height: 30.5rem;
+    position: relative;
+    left: 28rem;
+    top: -30.5rem;
+    background-color:rgb(236, 240, 241);
+    color: black;
+    padding-left: 10px;
+    box-shadow: 0px 0px  10px black;
+    border-radius: 0 10px 10px 0;
+}
+.TalentImg0 p
+{
+    text-align: center;
+    display: inline-block;
+    width: 10rem;
+    height: 7rem;
+    margin-left: 12rem;
+    margin-top: 1.5rem;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    opacity: 0.5;
+    color: black;
+}
+.contentTalent1
+{
+    height: 27.5rem;
+    width: 26.3rem;
+    margin-left: 3rem;
+    background-color:rgb(236, 240, 241);
+    color: black;
+    position: absolute;
+    top: 58rem;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px 0  0 10px ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.TalentImg1
+{
+    width: 30rem;
+    height: 28rem;
+    color: black;
+    position: absolute;
+    top: 58rem;
+    left: 29rem;
+}
+.TalentImg1 p
+{
+    text-align: center;
+    display: inline-block;
+    width: 11rem;
+    height: 7rem;
+    margin-left: 19rem;
+    margin-top: 5rem;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    opacity: 0.5;
+    color: black;
+}
+/*-----------------------------------------------------------------------------------pour la page du service du point de vu-----------------------------------------------------------------*/
+
+.contentPOVText
+{
+    margin-left: 10px;
+}
+.contentPOVText1
+{
+    margin-left: 10px;
+}
+
+.sectionPOV p
+{
+    font-family: arial;
+    font-size: 1.6rem;
+    width: 25rem;
+    margin-left: 9rem;
+    position: absolute;
+    top: 12rem;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    background-color: rgb(197, 197, 197);
+    opacity: 0.6;
+    border-radius: 10px;;
+}
+.contentPointOfView a 
+{
+    text-decoration: none;
+    
+}
+/*-----------------------------------------------------------------------------------pour la page du service de l'emprovement-----------------------------------------------------------------*/
+.contentImprovementText
+{
+    margin-left: 10px;
+}
+.contentImprovementText1
+{
+    margin-left: 10px;
+}
+
+.sectionImprovement p
+{
+    font-family: arial;
+    font-size: 1.6rem;
+    width: 22rem;
+    height: 5rem;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    text-align: left;
+    color: rgb(39, 39, 39);
+    background-color: rgb(197, 197, 197);
+    opacity: 0.6;
+    border-radius: 10px;
+    padding: 5px;
+}
+.contentImprovement a 
+{
+    text-decoration: none;
+    
+}
+
+/*-----------------------------------------------------------------------------------pour la page du service de openless World wild-----------------------------------------------------------------*/
+
+.contentOpenlessWoldWild
+{
+    height: 250vh;
+    width: 150vw;
+    background-color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15vw;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    color: rgb(235, 235, 235);
+
+}
+.SecondHeader
+{
+    height: 50vh;
+    width: 73.2vw;
+    position: relative;
+}
+.SecondHeader p
+{
+    font-family: arial 'sens-serif';
+    font-size: 1.6rem;
+    width: 25rem;
+    margin-left: 20rem;
+    position: absolute;
+    top: 10rem;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    background-color: rgb(197, 197, 197);
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.contentOpenlessWoldWild a 
+{
+    text-decoration: none;
+}
+.OWWImg0
+{
+    height: 30.5rem;
+    width: 25rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.contentOWW0
+{
+    width: 30rem;
+    height: 30.5rem;
+    position: relative;
+    left: 28rem;
+    top: -30rem;
+    background-color:rgb(236, 240, 241);
+    color: black;
+    padding-left: 10px;
+    box-shadow: 0px 0px  10px black;
+    border-radius: 0 10px 10px 0;
+}
+.OWWImg0 p
+{
+    text-align: center;
+    display: inline-block;
+    width: 10rem;
+    height: 7rem;
+    margin-left: 15rem;
+    margin-top: 15rem;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    opacity: 0.5;
+    color: black;
+}
+.contentOWW1
+{
+    height: 27.5rem;
+    width: 26.3rem;
+    margin-left: 3rem;
+    background-color:rgb(236, 240, 241);
+    color: black;
+    position: absolute;
+    top: 58rem;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px 0  0 10px ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.OWWImg1
+{
+    width: 30rem;
+    height: 28rem;
+    color: black;
+    position: absolute;
+    top: 58rem;
+    left: 29rem;
+}
+.OWWImg1 p
+{
+    text-align: center;
+    display: inline-block;
+    width: 10rem;
+    height: 7rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    opacity: 0.5;
+    color: black;
+}
+/*-----------------------------------------------------------------------------------pour la page du service de legacy-----------------------------------------------------------------*/
+
+.contentLegacy
+{
+    height: 250vh;
+    width: 100vw;
+    background-color:rgb(236, 240, 241);
+    position: relative;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    color: black;
+    grid-row: 1;
+    
+}
+
+.sectionLegacy
+{
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+
+}
+.sectionLegacy p
+{
+    font-family: arial 'sens-serif';
+    font-size: 1.6rem;
+    width: 25rem;
+    margin-left: 30rem;
+    position: absolute;
+    top: 10rem;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    background-color: rgb(197, 197, 197);
+    opacity: 0.6;
+    border-radius: 10px;
+}
+.aboutProgram
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 5rem;
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+  
+}
+.timeDiv
+{
+    height: 50vh;
+    width: 25rem;
+    margin-left: 52.5px;
+    position:relative;
+    background-color: white;
+    border-radius: 10px;
+}
+.confId
+{
+    height: 5rem;
+    width: 7rem;
+    background-color: rgb(22, 14, 14,0.2);
+}
+.time
+{
+    height: 5rem;
+    width: 8rem;
+    background-color: rgb(22, 14, 14,0.2);
+    position: absolute;
+    left: 8rem;
+    top: 2.2rem;
+    padding-top: 0px;
+    
+}
+
+.topic
+{
+    height: 50vh;
+    width: 25rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.aboutSpeaker
+{
+    height: 50vh;
+    width: 25rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.moreInfo
+{
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 25px;
+}
+.participation
+{
+    width: 25rem;
+    height: 45rem;
+    display: block;
+    margin-left: 3.5rem;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.participation span,p,h3
+{
+    margin-left: 10px;
+}
+.conferenceFormat
+{
+    width: 50rem;
+    height: 45rem;
+    display: block;
+    font-family: arial,'sens-serif';
+    padding-right: 10px;
+    position: absolute;
+    top: 0px;
+    margin-left: 29rem;
+    background-color: white;
+    justify-content: left;
+    text-align: left;
+}
+.conferenceFormat p,span
+{
+    padding-left: 5px;
+}
+.contentLegacy a
+{
+    
+    text-decoration: none;
+}
+
+.HeaderInfo
+{
+    height: 50vh;
+    width: 73.2vw;
+    position: relative;
+    margin: 0px auto;
+}
+.block-logiciel
+{
+    width: 73vw;
+    height: auto;
+    display: flex;
+    flex-shrink: 1;
+    background-color: black;
+    #ddd;
+    margin: 50px auto;
+}
+.word-block
+{
+    width: 30vw;
+    height: auto;
+    background-color: white;
+}
+.txt-word
+{
+    width:25vw;
+    height:20vh;
+    font-size: 20px;
+    text-align-last: left;
+ }
+
+ .excel-block
+{
+    width: 30vw;
+    height: auto;
+    background-color: white;
+    margin-left: 1rem;
+}
+.txt-excel
+{
+    width:25vw;
+    height:20vh;
+    font-size: 20px;
+    text-align-last: left;
+ }
+
+ .powerpoint-block
+{
+    width: 25vw;
+    height: auto;
+    background-color: white;
+    margin-left: 1rem;
+}
+.txt-power
+{
+    width:25vw;
+    height:20vh;
+    font-size: 20px;
+    text-align-last: left;
+ }
