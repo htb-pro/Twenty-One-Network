@@ -1729,11 +1729,25 @@ footer > .adm_site a:hover
     
     }
 }
-  @media screen and (max-width:800px)
+    @media screen and (max-width:600px) 
  {
+     body
+     {
+        width: 100%;
+        height: 100%;
+     }
+   
+     header
+     {
+        width: 100vw;
+     }
      .letters 
      {
-        margin-left: -7.5rem;
+        margin-left: -7rem;
+     }
+     .blockNav
+     {
+        width: 100vw;
      }
      .blockNav .nav-description
      {
@@ -1750,17 +1764,20 @@ footer > .adm_site a:hover
      }
     section
     {
-        margin-top: 0px;
-        background-position: right 50px;
-        background-size: 650px;
+        width: 100vw;
+        height: 300px;
+        margin-top: 12rem;
+        margin-bottom: 2rem;
+        background-size: cover;
+        background-position: 20px 10px;
     } 
     section .text
     {
         width: auto;
         height: auto;
-        font-size: 18px;
-        margin-left: -1rem;
-        margin-top: 2rem;
+        font-size: 15px;
+        margin-left: -1.7rem;
+        margin-top: 0rem;
     }
     .labelService
     {
@@ -1779,16 +1796,16 @@ footer > .adm_site a:hover
     } 
     .serviceContain
     {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: -5rem;
-        margin-left: 2rem;
+        width: 100vw;
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
     footer
     {
     /*la mise en forme du bas de la page*/
-        height: 100%;
+        height: auto;
+        width: 100vw;
         display: flex;
         flex-direction: column;
     }
